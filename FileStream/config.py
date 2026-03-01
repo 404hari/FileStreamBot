@@ -4,13 +4,13 @@ from dotenv import load_dotenv
 load_dotenv()
 
 class Telegram:
-    API_ID = int(env.get("API_ID"))
-    API_HASH = str(env.get("API_HASH"))
-    BOT_TOKEN = str(env.get("BOT_TOKEN"))
-    OWNER_ID = int(env.get('OWNER_ID', '7978482443'))
+    API_ID = "22136772"
+    API_HASH = "7541e5b6d298eb1f60dac89aae92868c"
+    BOT_TOKEN = "7420317399:AAE5mHLDtn7HuPxaaFwYEj9arGahTCE0qdQ"
+    OWNER_ID = int(env.get('OWNER_ID', '8083702486'))
     WORKERS = int(env.get("WORKERS", "6"))  # 6 workers = 6 commands at once
     DATABASE_URL = str(env.get('DATABASE_URL'))
-    UPDATES_CHANNEL = str(env.get('UPDATES_CHANNEL', "Telegram"))
+    UPDATES_CHANNEL = str(env.get('UPDATES_CHANNEL', "XtreamMalayalam"))
     SESSION_NAME = str(env.get('SESSION_NAME', 'FileStream'))
     FORCE_SUB_ID = env.get('FORCE_SUB_ID', None)
     FORCE_SUB = env.get('FORCE_UPDATES_CHANNEL', False)
